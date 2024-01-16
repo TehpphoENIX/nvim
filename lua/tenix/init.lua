@@ -22,4 +22,8 @@ require("lazy").setup({
 	{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
     	{ 'rose-pine/neovim', name = 'rose-pine' },
 	{ 'ThePrimeagen/vim-be-good' },
+	{ 'nvim-lua/plenary.nvim' },
+	{ 'theprimeagen/harpoon' },
+	{ 'mbbill/undotree' },
+	{ 'tpope/vim-fugitive' },
 })
