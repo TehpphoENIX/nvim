@@ -37,9 +37,11 @@ require("lazy").setup({
 	{'hrsh7th/cmp-nvim-lsp'},
 	{'hrsh7th/nvim-cmp'},
 	{'L3MON4D3/LuaSnip'},
-	{'kaarmu/typst.vim',
-  		ft = 'typst',
-  		lazy=false,
-	},
-
+    {'lambdalisue/suda.vim'},
+    {'lyokha/vim-xkbswitch'},
+    {'github/copilot.vim'},
+    { "rcarriga/nvim-dap-ui", dependencies = {"mfussenegger/nvim-dap", "nvim-neotest/nvim-nio"}},
+    { "jose-elias-alvarez/null-ls.nvim", requires = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig"}, event = "VeryLazy" },
+    { "jay-babu/mason-nvim-dap.nvim", requires = { "williamboman/mason.nvim", "mfussenegger/nvim-dap"}},
+    { 'Civitasv/cmake-tools.nvim', requires = { 'Civitasv/cmake-tools.nvim' }}
 })
