@@ -38,7 +38,6 @@ require("lazy").setup({
 	{'hrsh7th/nvim-cmp'},
 	{'L3MON4D3/LuaSnip'},
     {'lambdalisue/suda.vim'},
-    {'lyokha/vim-xkbswitch'},
     {'github/copilot.vim'},
     { "rcarriga/nvim-dap-ui", dependencies = {"mfussenegger/nvim-dap", "nvim-neotest/nvim-nio"}},
     { "jose-elias-alvarez/null-ls.nvim", requires = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig"}, event = "VeryLazy" },
